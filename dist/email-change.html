@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class="bg-gray-200 h-full" lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" style="background-color: #edf2f7; height: 100%;">
+<head>
+  <meta charset="utf8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+  <title>Confirm Change of Email</title>
+
+  <!--[if mso]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <style>
+    table {border-collapse: collapse;}
+    td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
+  </style>
+  <![endif]-->
+  <style>
+    .hover-bg-blue-600:hover {
+      background-color: #3182ce !important;
+    }
+    .hover-underline:hover {
+      text-decoration: underline !important;
+    }
+    @media screen {
+      img {
+        max-width: 100%;
+      }
+      td,
+      th {
+        box-sizing: border-box;
+      }
+      u~div .wrapper {
+        min-width: 100vw;
+      }
+      .all-font-sans {
+        font-family: -apple-system, "Segoe UI", sans-serif !important;
+      }
+    }
+    @media (max-width: 600px) {
+      .sm-h-32 {
+        height: 32px !important;
+      }
+      .sm-px-24 {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+      }
+      .sm-pb-12 {
+        padding-bottom: 12px !important;
+      }
+      .sm-w-full {
+        width: 100% !important;
+      }
+    }
+  </style>
+</head>
+<body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%; word-break: break-word; -webkit-font-smoothing: antialiased; background-color: #edf2f7; height: 100%;">
+  <table class="wrapper all-font-sans" width="100%" height="100%" cellpadding="0" cellspacing="0" role="presentation">
+    <tr>
+      <td align="center" style="padding-top: 24px; padding-bottom: 24px; vertical-align: middle;" bgcolor="#edf2f7" valign="middle">
+        <table class="sm-w-full" width="600" cellpadding="0" cellspacing="0" role="presentation">
+          <tr>
+            <td class="sm-pb-12" style="padding-bottom: 24px; text-align: center;" align="center">
+              <h1 style="font-weight: 600; color: #000000; font-size: 24px;">Confirm Change of Email</h1>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" class="sm-px-24">
+              <table class="sm-w-full" width="75%" cellpadding="0" cellspacing="0" role="presentation">
+                <tr>
+                  <td class="sm-px-24" style="padding: 48px; text-align: center;" bgcolor="#ffffff" align="center">
+                    <p style="font-weight: 600; margin: 0; font-size: 18px;">Hey there,</p>
+                    <p style="color: #4a5568; font-size: 16px;">Follow this link to confirm the update of your email from {{ .Email }} to {{ .NewEmail }}:</p>
+                    <div class="sm-h-32" style="line-height: 24px;">&zwnj;</div>
+                    <table align="center" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td align="center" class="hover-bg-blue-600" style="mso-padding-alt: 8px 24px 16px; border-radius: 4px; color: #ffffff;" bgcolor="#4299e1">
+                          <a href="{{ .ConfirmationURL }}" style="display: inline-block; font-weight: 600; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 24px; color: #ffffff; font-size: 14px; text-transform: uppercase; text-decoration: none;">Change Email &rarr;</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="2" bgcolor="#e2e8f0"></td>
+                </tr>
+                <tr>
+                  <td style="padding: 32px; text-align: center; color: #718096; font-size: 12px;" align="center">
+                    <p style="margin: 0; margin-bottom: 4px; text-transform: uppercase;">Powered by Maizzle</p>
+                    <p style="margin: 0; font-style: italic;">The framework for rapid email prototyping</p>
+                    <p style="cursor: default;">
+                      <a href="https://maizzle.com/docs/" class="hover-underline" style="color: #4299e1; text-decoration: none;">Docs</a> &bull;
+                      <a href="https://github.com/maizzle" class="hover-underline" style="color: #4299e1; text-decoration: none;">Github</a> &bull;
+                      <a href="https://twitter.com/maizzlejs" class="hover-underline" style="color: #4299e1; text-decoration: none;">Twitter</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

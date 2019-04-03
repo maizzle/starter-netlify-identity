@@ -1,0 +1,48 @@
+---
+title: Confirm Change of Email
+bodyClass: bg-gray-200 h-full
+htmlClass: bg-gray-200 h-full
+---
+
+{% block template %}
+
+<table class="wrapper w-full h-full all-font-sans">
+  <tr>
+    <td align="center" class="bg-gray-200 align-middle py-24">
+      <table class="w-600 sm-w-full">
+        <tr>
+          <td class="text-center pb-24 sm-pb-12">
+            <h1 class="font-semibold text-black text-2xl">Confirm Change of Email</h1>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" class="sm-px-24">
+            <table class="w-3-4 sm-w-full">
+              <tr>
+                <td class="bg-white p-48 sm-px-24 text-center">
+                  <p class="text-lg font-semibold m-0">Hey there,</p>
+                  <p class="text-gray-700 text-base">Follow this link to confirm the update of your email from {% raw %}{{ .Email }}{% endraw %} to {% raw %}{{ .NewEmail }}{% endraw %}:</p>
+                  <div class="leading-24 sm-h-32">&zwnj;</div>
+                  <table align="center">
+                    <tr>
+                      <td align="center" class="bg-blue-500 hover-bg-blue-600 text-white rounded" style="mso-padding-alt: 8px 24px 16px;">
+                        <a href="{% raw %}{{ .ConfirmationURL }}{% endraw %}" class="text-white inline-block text-sm font-semibold py-16 px-24 no-underline uppercase">Change Email &rarr;</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="h-2 bg-gray-300"></td>
+              </tr>
+              {% include "src/partials/footer.njk" %}
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+{% endblock %}
+
