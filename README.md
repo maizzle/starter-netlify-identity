@@ -2,6 +2,14 @@
 
 HTML email templates for [Netlify Identity](https://www.netlify.com/docs/identity/), built with Maizzle.
 
+## Installation
+
+First, make sure you have installed the [Maizzle CLI](https://maizzle.com/docs/installation/#install-the-cli-globally) globally.
+
+Then:
+
+`maizzle new my-project https://github.com/maizzle/starter-netlify-identity`
+
 ## About Maizzle
 
 Maizzle is an email framework that helps you quickly build emails with utility-first CSS and advanced, email-specific post-processing. It's powered by [Tailwind CSS](https://tailwindcss.com/) and an email-tailored, custom Node.js build system that enables various transformations necessary for HTML emails.
