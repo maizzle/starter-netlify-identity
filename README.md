@@ -8,7 +8,9 @@ First, make sure you have installed the [Maizzle CLI](https://maizzle.com/docs/i
 
 Then:
 
-`maizzle new my-project https://github.com/maizzle/starter-netlify-identity`
+```sh
+maizzle new my-project https://github.com/maizzle/starter-netlify-identity
+```
 
 ## About Maizzle
 
