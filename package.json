@@ -6,8 +6,8 @@
     "watch": "maizzle serve"
   },
   "dependencies": {
-    "@maizzle/framework": "^0.1.3",
-    "tailwindcss-gradients": "^1.1.0"
+    "@maizzle/framework": "^0.2.0",
+    "tailwindcss-gradients": "^2.1.0"
   },
   "browserslist": [
     "> 1%"
