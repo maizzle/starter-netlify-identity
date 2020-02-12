@@ -16,7 +16,6 @@ module.exports = {
     replaceStrings: {
       '\\s(style|class)(=""|(?=>)|(?=\\s))+': '',
     },
-    preferBgColorAttribute: true,
   },
 
   prettify: {

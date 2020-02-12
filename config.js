@@ -99,8 +99,8 @@ module.exports = {
       'vertical-align': 'valign',
     },
     applySizeAttribute: {
-      width: ['TABLE', 'TD', 'TH', 'IMG', 'VIDEO'],
-      height: ['TABLE', 'TD', 'TH', 'IMG', 'VIDEO'],
+      width: [],
+      height: [],
     },
     excludedProperties: null,
   },
@@ -177,8 +177,8 @@ module.exports = {
     */
 
     keepOnlyAttributeSizes: {
-      width: ['TABLE', 'TD', 'TH', 'IMG', 'VIDEO'],
-      height: ['TABLE', 'TD', 'TH', 'IMG', 'VIDEO'],
+      width: [],
+      height: [],
     },
 
     /*
@@ -317,7 +317,6 @@ module.exports = {
       path: 'build_local',
       extension: 'html',
     },
-    layout: 'src/layouts/default.njk',
     templates: {
       source: 'src/templates',
       filetypes: 'html|njk|nunjucks',
