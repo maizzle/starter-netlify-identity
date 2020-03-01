@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@maizzle/framework": "latest",
-    "tailwindcss-gradients": "^2.3.1"
+    "tailwindcss-gradients": "^3.0.0"
   },
   "browserslist": [
     "> 1%"
