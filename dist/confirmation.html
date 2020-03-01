@@ -25,21 +25,6 @@
     .hover-underline:hover {
       text-decoration: underline !important;
     }
-    @media screen {
-      img {
-        max-width: 100%;
-      }
-      td,
-      th {
-        box-sizing: border-box;
-      }
-      u~div .wrapper {
-        min-width: 100vw;
-      }
-      .all-font-sans {
-        font-family: -apple-system, "Segoe UI", sans-serif !important;
-      }
-    }
     @media (max-width: 600px) {
       .sm-h-32 {
         height: 32px !important;
@@ -57,8 +42,8 @@
     }
   </style>
 </head>
-<body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%; word-break: break-word; -webkit-font-smoothing: antialiased; background-color: #edf2f7; height: 100%;">
-  <table class="wrapper all-font-sans" style="height: 100%; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+<body style="margin: 0; padding: 0; width: 100%; word-break: break-word; -webkit-font-smoothing: antialiased; background-color: #edf2f7; height: 100%;">
+  <table style="font-family: -apple-system, 'Segoe UI', sans-serif; height: 100%; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
     <tr>
       <td align="center" style="background-color: #edf2f7; padding-top: 24px; padding-bottom: 24px; vertical-align: middle;" bgcolor="#edf2f7" valign="middle">
         <table class="sm-w-full" style="width: 600px;" cellpadding="0" cellspacing="0" role="presentation">
@@ -69,7 +54,7 @@
           </tr>
           <tr>
             <td align="center" class="sm-px-24">
-              <table class="sm-w-full" cellpadding="0" cellspacing="0" role="presentation">
+              <table class="sm-w-full" style="width: 75%;" cellpadding="0" cellspacing="0" role="presentation">
                 <tr>
                   <td class="sm-px-24" style="background-color: #ffffff; padding: 48px; text-align: center;" bgcolor="#ffffff" align="center">
                     <p style="font-weight: 600; margin: 0; font-size: 18px;">Hey there,</p>
