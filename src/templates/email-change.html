@@ -25,15 +25,13 @@ htmlClass: bg-gray-200 h-full
                         <p class="text-gray-700 text-base">Follow this link to confirm the update of your email from {{ .Email }} to {{ .NewEmail }}:</p>
                       </raw>
                       <div class="leading-24 sm:h-32">&zwnj;</div>
-                      <table align="center">
-                        <tr>
-                          <td align="center" class="bg-blue-500 hover:bg-blue-600 text-white rounded" style="mso-padding-alt: 8px 24px 16px;">
-                            <raw>
-                              <a href="{{ .ConfirmationURL }}" class="text-white inline-block text-sm font-semibold py-16 px-24 no-underline uppercase">Change Email &rarr;</a>
-                            </raw>
-                          </td>
-                        </tr>
-                      </table>
+                      <a
+                        href="@{{ .ConfirmationURL }}"
+                        class="inline-block py-20 px-24 text-sm leading-none no-underline text-white font-semibold uppercase rounded bg-blue-500 hover:bg-blue-600">
+                        <!--[if mso]><i style="letter-spacing: 24px; mso-font-width: -100%; mso-text-raise: 26pt;">&nbsp;</i><![endif]-->
+                          <span style="mso-text-raise: 13pt;">Change email &rarr;</span>
+                        <!--[if mso]><i style="letter-spacing: 24px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
+                      </a>
                     </td>
                   </tr>
                   <tr>
