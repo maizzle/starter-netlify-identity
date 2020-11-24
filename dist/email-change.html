@@ -7,16 +7,16 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
-    <title>Confirm Change of Email</title>
     <!--[if mso]>
     <xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
     <style>
       td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
     </style>
   <![endif]-->
+    <title>Confirm Change of Email</title>
     <style>
       .hover-bg-blue-600:hover {
-        background-color: #1c64f2 !important;
+        background-color: #2563eb !important;
       }
 
       .hover-underline:hover {
@@ -46,43 +46,41 @@
 
   <body style="margin: 0; padding: 0; width: 100%; word-break: break-word; -webkit-font-smoothing: antialiased; background-color: #e5e7eb; height: 100%;">
     <div role="article" aria-roledescription="email" aria-label="Confirm Change of Email" lang="en">
-      <table style="font-family: -apple-system, 'Segoe UI', sans-serif; height: 100%; width: 100%;" width="100%" height="100%" cellpadding="0" cellspacing="0" role="presentation">
+      <table style="font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; height: 100%; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
         <tr>
-          <td align="center" style="background-color: #e5e7eb; padding-top: 24px; padding-bottom: 24px; vertical-align: middle;" bgcolor="#e5e7eb" valign="middle">
-            <table class="sm-w-full" style="width: 600px;" width="600" cellpadding="0" cellspacing="0" role="presentation">
+          <td align="center" style="background-color: #e5e7eb; padding-top: 24px; padding-bottom: 24px; vertical-align: middle;" valign="middle">
+            <table class="sm-w-full" style="width: 600px;" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
-                <td class="sm-pb-12" style="padding-bottom: 24px; text-align: center;" align="center">
+                <td class="sm-pb-12" style="padding-bottom: 24px; text-align: center;">
                   <h1 style="font-weight: 600; font-size: 24px; color: #000000;">Confirm Change of Email</h1>
                 </td>
               </tr>
               <tr>
                 <td align="center" class="sm-px-24">
-                  <table class="sm-w-full" style="width: 75%;" width="75%" cellpadding="0" cellspacing="0" role="presentation">
+                  <table class="sm-w-full" style="width: 75%;" cellpadding="0" cellspacing="0" role="presentation">
                     <tr>
-                      <td class="sm-px-24" style="background-color: #ffffff; padding: 48px; text-align: center;" bgcolor="#ffffff" align="center">
+                      <td class="sm-px-24" style="background-color: #ffffff; padding: 48px; text-align: center;">
                         <p style="font-weight: 600; font-size: 18px; margin: 0;">Hey there,</p>
                         <p style="font-size: 16px; color: #374151;">Follow this link to confirm the update of your email from {{ .Email }} to {{ .NewEmail }}:</p>
                         <div class="sm-h-32" style="line-height: 24px;">&zwnj;</div>
-                        <table align="center" cellpadding="0" cellspacing="0" role="presentation">
-                          <tr>
-                            <td align="center" class="hover-bg-blue-600" style="mso-padding-alt: 8px 24px 16px; background-color: #3f83f8; border-radius: 4px; color: #ffffff;" bgcolor="#3f83f8">
-                              <a href="{{ .ConfirmationURL }}" style="display: inline-block; font-weight: 600; font-size: 14px; padding: 16px 24px; color: #ffffff; text-transform: uppercase; text-decoration: none;">Change Email &rarr;</a>
-                            </td>
-                          </tr>
-                        </table>
+                        <a href="{{ .ConfirmationURL }}" class="hover-bg-blue-600" style="background-color: #3b82f6; border-radius: 4px; display: inline-block; font-weight: 600; font-size: 14px; line-height: 1; padding: 20px 24px; color: #ffffff; text-transform: uppercase; text-decoration: none;">
+                          <!--[if mso]><i style="letter-spacing: 24px; mso-font-width: -100%; mso-text-raise: 26pt;">&nbsp;</i><![endif]-->
+                          <span style="mso-text-raise: 13pt;">Change email &rarr;</span>
+                          <!--[if mso]><i style="letter-spacing: 24px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
+                        </a>
                       </td>
                     </tr>
                     <tr>
-                      <td style="background-color: #d2d6dc; height: 2px;" height="2" bgcolor="#d2d6dc"></td>
+                      <td style="background-color: #d1d5db; height: 2px;"></td>
                     </tr>
                     <tr>
-                      <td style="font-size: 12px; padding: 32px; text-align: center; color: #4b5563;" align="center">
+                      <td style="font-size: 12px; padding: 32px; text-align: center; color: #4b5563;">
                         <p style="margin: 0 0 4px; text-transform: uppercase;">Powered by Maizzle</p>
                         <p style="margin: 0; font-style: italic;">The framework for rapid email prototyping</p>
                         <p style="cursor: default;">
-                          <a href="https://maizzle.com/docs/" class="hover-underline" style="color: #3f83f8; text-decoration: none;">Docs</a> &bull;
-                          <a href="https://github.com/maizzle" class="hover-underline" style="color: #3f83f8; text-decoration: none;">Github</a> &bull;
-                          <a href="https://twitter.com/maizzlejs" class="hover-underline" style="color: #3f83f8; text-decoration: none;">Twitter</a>
+                          <a href="https://maizzle.com/docs/" class="hover-underline" style="color: #3b82f6; text-decoration: none;">Docs</a> &bull;
+                          <a href="https://github.com/maizzle" class="hover-underline" style="color: #3b82f6; text-decoration: none;">Github</a> &bull;
+                          <a href="https://twitter.com/maizzlejs" class="hover-underline" style="color: #3b82f6; text-decoration: none;">Twitter</a>
                         </p>
                       </td>
                     </tr>
