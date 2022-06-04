@@ -2,30 +2,40 @@
 
 HTML email templates for [Netlify Identity](https://www.netlify.com/docs/identity/), built with [Tailwind CSS](https://tailwindcss.com/) in [Maizzle](https://maizzle.com).
 
-## Installation
+## Getting started
 
 First, make sure you have installed the [Maizzle CLI](https://maizzle.com/docs/installation/#install-the-cli-globally) globally:
 
-```sh
+```
 npm install -g @maizzle/cli
 ```
 
 Then, scaffold a new project with this Starter:
 
-```sh
+```
 maizzle new maizzle/starter-netlify-identity
 ```
 
-Develop locally:
+Alternatively, you may clone this starter directly:
+
+```bash
+# remember to install dependencies with `npm install`
+
+npx degit maizzle/starter-netlify-identity
+```
+
+## Development
+
+Start a local development server:
 
 ```
-maizzle serve
+npm run dev
 ```
 
 Build for production:
 
 ```
-maizzle build production
+npm run build
 ```
 
 ## Documentation
