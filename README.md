@@ -1,4 +1,16 @@
-# Maizzle Netlify Identity Starter
+<div align="center">
+  <p>
+    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
+      <img src="./.github/logo-light.svg" alt="Maizzle" width="200">
+    </a>
+    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
+      <img src="./.github/logo-dark.svg" alt="Maizzle" width="200">
+    </a>
+  </p>
+  <p>Netlify Identity Starter</p>
+</div>
+
+# About
 
 HTML email templates for [Netlify Identity](https://www.netlify.com/docs/identity/), built with [Tailwind CSS](https://tailwindcss.com/) in [Maizzle](https://maizzle.com).
 
