@@ -9,17 +9,12 @@
 |
 */
 
-module.exports = {
+/** @type {import('@maizzle/framework').Config} */
+export default {
   build: {
-    templates: {
-      source: 'src/templates',
-      destination: {
-        path: 'build_local',
-      },
-      assets: {
-        source: 'src/assets/images',
-        destination: 'images',
-      },
+    content: ['src/templates/**/*.html'],
+    output: {
+      path: 'build_local',
     },
   },
 }
