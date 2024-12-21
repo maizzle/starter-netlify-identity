@@ -6,7 +6,7 @@
     "build": "maizzle build production"
   },
   "dependencies": {
-    "@maizzle/framework": "next",
-    "tailwindcss-preset-email": "^1.3.0"
+    "@maizzle/framework": "latest",
+    "tailwindcss-preset-email": "latest"
   }
 }

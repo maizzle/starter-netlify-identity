@@ -20,11 +20,16 @@ bodyClass: bg-gray-200
               <table class="w-3/4 sm:w-full">
                 <tr>
                   <td class="bg-white p-12 sm:px-6 text-center">
-                    <p class="text-lg font-semibold m-0">Hey there,</p>
+                    <p class="text-lg font-semibold m-0">
+                      Hey there,
+                    </p>
+
                     <p class="text-gray-700 text-base">
                       Follow this link to confirm the update of your email from {{ .Email }} to {{ .NewEmail }}:
                     </p>
+
                     <x-spacer height="24px" class="sm:leading-8" />
+
                     <x-button href="{{ .ConfirmationURL }}">
                       Change email &rarr;
                     </x-button>
@@ -33,7 +38,11 @@ bodyClass: bg-gray-200
                 <tr>
                   <td class="h-0.5 bg-gray-300"></td>
                 </tr>
-                <x-footer />
+                <tr>
+                  <td class="p-8 text-center text-gray-600 text-xs">
+                    <x-footer />
+                  </td>
+                </tr>
               </table>
             </td>
           </tr>

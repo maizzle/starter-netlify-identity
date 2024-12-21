@@ -13,7 +13,7 @@
 export default {
   build: {
     output: {
-      path: 'dist',
+      path: '_dist',
     },
   },
   css: {

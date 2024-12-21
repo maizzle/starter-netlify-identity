@@ -16,25 +16,13 @@ HTML email templates for [Netlify Identity](https://www.netlify.com/docs/identit
 
 ## Getting started
 
-First, make sure you have installed the [Maizzle CLI](https://maizzle.com/docs/installation/#install-the-cli-globally) globally:
-
-```
-npm install -g @maizzle/cli
-```
-
-Then, scaffold a new project with this Starter:
-
-```
-maizzle new maizzle/starter-netlify-identity
-```
-
-Alternatively, you may clone this starter directly:
+Use the wizard to create a new Maizzle project:
 
 ```bash
-# remember to install dependencies with `npm install`
-
-npx degit maizzle/starter-netlify-identity
+npx create-maizzle
 ```
+
+When prompted to select a Starter, choose **Custom ➜ Git** and then type `maizzle/starter-netlify-identity`.
 
 ## Development
 
