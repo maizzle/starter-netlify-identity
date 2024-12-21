@@ -9,16 +9,17 @@
 |
 */
 
-module.exports = {
+/** @type {import('@maizzle/framework').Config} */
+export default {
   build: {
-    templates: {
-      destination: {
-        path: 'dist',
-      },
+    output: {
+      path: '_dist',
     },
   },
+  css: {
+    inline: true,
+    purge: true,
+    shorthand: true,
+  },
   prettify: true,
-  inlineCSS: true,
-  removeUnusedCSS: true,
-  shorthandInlineCSS: true,
 }

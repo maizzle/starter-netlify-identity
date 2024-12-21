@@ -1,0 +1,53 @@
+---
+title: Confirm your signup
+bodyClass: bg-gray-200
+---
+
+<x-main>
+  <table class="w-full font-sans">
+    <tr>
+      <td align="center" class="p-0 py-6 bg-gray-200">
+        <table class="w-[600px] sm:w-full">
+          <tr>
+            <td class="text-center p-0 pb-6 sm:pb-3">
+              <h1 class="font-semibold text-black text-2xl">
+                Confirm your signup
+              </h1>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" class="sm:px-8">
+              <table class="w-3/4 sm:w-full">
+                <tr>
+                  <td class="bg-white p-12 sm:px-6 text-center">
+                    <p class="text-lg font-semibold m-0">
+                      Hey there,
+                    </p>
+
+                    <p class="text-gray-700 text-base">
+                      Follow this link to confirm your account:
+                    </p>
+
+                    <x-spacer height="24px" class="sm:leading-8" />
+
+                    <x-button href="{{ .ConfirmationURL }}">
+                      Confirm your email &rarr;
+                    </x-button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="h-0.5 bg-gray-300"></td>
+                </tr>
+                <tr>
+                  <td class="p-8 text-center text-gray-600 text-xs">
+                    <x-footer />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</x-main>
